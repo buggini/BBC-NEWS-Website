@@ -1,0 +1,73 @@
+#topbar{
+
+    width: 1000px;
+    margin: 0 auto;
+    height: 45px; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*logo*/
+#topbar img{
+
+    float: left;   
+    margin: 8px;
+}
+.topbar-section{
+    float: left;
+    border-left: 1px solid #cccccc;
+    height: 100%;
+
+}
+/*sign in icon*/
+#signin-div img{
+    width: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    float: left;
+}
+#signin-div span{
+    float: left;
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 14px; 
+    margin-right: 75px; 
+}
+#bell-div{
+    float: left;
+}
+#bell-icon{
+    height: 28px;
+    width: 30px;
+    float: left;
+}
+.topbar-menu p{
+    font-weight: bold;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#arrow-more{
+    width: 19px;
+    padding-top:10px;   
+}
+#search-box{
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px;
+    margin: 8px 0px 5px 5px;
+    float: left;
+}
+#search-icon{
+    margin: 8px 0px 5px 5px;
+    height: 28px;
+    position: relative;
+    left: -10px;
+}
