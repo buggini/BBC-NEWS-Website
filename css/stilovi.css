@@ -11,7 +11,6 @@ body{
 }
 /*logo*/
 #topbar img{
-
     float: left;   
     margin: 8px;
 }
@@ -19,7 +18,6 @@ body{
     float: left;
     border-left: 1px solid #cccccc;
     height: 100%;
-
 }
 /*sign in icon*/
 #signin-div img{
@@ -153,6 +151,10 @@ h1{
     width: 1000px;
     margin: 0 auto;
 }
+#main-article{
+    width: 1000px;
+    margin: 0 auto;  
+}
 h2{
     font-weight: normal;
     margin-top: 50px;
@@ -177,7 +179,7 @@ h3 a:hover{
 .article-summery p{
     color: #a5a5a5;
 }
-.article-summery img{
+.clock{
     height: 15px;
     position: relative;
     top: 1px;
@@ -212,14 +214,40 @@ h3 a:hover{
 .article-link:hover{
     color: #1167a8;
 }
-
-
-
-
-
-
-
-#main-article{
-    width: 1000px;
-    margin: 0 auto;  
+.watch-listen{
+    float: right;
+    margin-left:20px;
+    width: 250px;
+    
+}
+.watch-listen h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+.aricle-side-imange{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+.watch-listen-link{
+    text-decoration : none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.watch-listen-link:hover{
+    color: #1167a8 ;
+}
+.watch-listen p{
+    color: #a5a5a5;
+  
+}
+.artical-link{
+    text-decoration: none;
+    color: #A91717;
+    padding-left: 3px;
+}
+.artical-link:hover{
+    text-decoration: none;
+    color: #1167a8;
 }
