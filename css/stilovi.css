@@ -145,7 +145,81 @@ h1{
 }
 #down-arrow{
     height: 15px;
-    position: relative;
+    position: relative; 
     top: 13px;
     left: -9px;
+}
+#page-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+h2{
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 20px;
+    border-bottom: 3px solid #A91717;
+    width: 95px;
+}
+h3 a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #1167a8;
+    font-size: 30px;
+    text-decoration: none;
+}
+.article-summery{
+    width: 250px; 
+    float: left;
+}
+.article-summery p{
+    color: #a5a5a5;
+}
+.article-summery img{
+    height: 15px;
+    position: relative;
+    top: 1px;
+}
+.article-summery a{
+    text-decoration: none;
+    color: #A91717;
+    border-left: 1px solid #cccccc;
+    padding-left: 7px;
+}
+.article-summery a:hover{
+    text-decoration: none;
+    color: #1167a8;
+}
+.article-container{
+    float: left;
+    width: 700px;
+    border-right: 1px solid #cccccc;
+    padding-right: 20px;
+}
+#article-imange{
+    float:right;
+}
+#article-hr{
+    border-top: 1px solid #A91717;
+    width: 50px;
+}
+.article-link{
+    text-decoration: none;
+    color: black;
+}
+.article-link:hover{
+    color: #1167a8;
+}
+
+
+
+
+
+
+
+#main-article{
+    width: 1000px;
+    margin: 0 auto;  
 }
